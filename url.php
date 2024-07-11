@@ -12,8 +12,6 @@
     <meta name="referrer" content="never"/>
     <meta http-equiv="Access-Control-Allow-Origin" content="*" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://community.image.video.qpic.cn/v_station_video_web_comment_fbd86c-1_411734343_1694414327274690" media="screen" />
-    <link rel="stylesheet" href="https://nim.nosdn.127.net/MTAyNDkzMg==/bmltYV8zNDc1MjQ0MDAxMV8xNzA2MTkwOTcwNTMxX2VkODExOTc4LWRhNzMtNDAxNC04MDA5LTZmMWFjODM0NzNlMA==">
 
 </head>
 <body>
