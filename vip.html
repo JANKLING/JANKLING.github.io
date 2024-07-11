@@ -20,7 +20,39 @@ var _hmt = _hmt || [];
 </script>
 </head>
 <body onload="run();">
-
+<script>
+ function bfjx() {
+    var diz = document.getElementById("url").value;
+    var jkurl = document.getElementById("jk");
+    var jk = document.getElementById("jk").selectedIndex;
+    var jkv = jkurl.options[jk].value;
+    var cljurl = document.getElementById("player");
+    cljurl.src = jkv + diz
+   }
+   
+ function bfjx2() {
+       var diz = document.getElementById("url").value;
+       var jkurl = document.getElementById("jk");
+       var jk = document.getElementById("jk").selectedIndex;
+       var jkv = jkurl.options[jk].value;
+       var cljurl = document.getElementById("player");
+       window.open(jkv + diz,"_blank");
+   }
+ 
+			var banners = ["images/sjhd.jpg","images/taobao.jpg","https://www.awf1.com/zb_users/upload/2022/03/20220328175212164846113284081.jpg"]; // 图片地址
+			var  url=["https://wpa.qq.com/msgrd?v=3&uin=993941&site=qq&menu=yes","https://www.4gld.com/","https://www.4gld.com/"];
+			var counter = 0;
+			function run(){
+				setInterval(cycle,5000);  //重复运行cycle函数，周期1000ms
+			}
+			function cycle(){
+				counter++;
+				if(counter == banners.length)	
+					counter = 0;
+				document.getElementById("hfgg").src = banners[counter];
+				document.getElementById("ggurl").href = url[counter];
+			} 
+</script>
 <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 center-block" style="float: none;">
 <h3 class="text-muted" align="center" id="title"><a href="/vip">全网VIP视频解析系统</a></h3>
 <p style="letter-spacing: 1px; text-align: center;">
